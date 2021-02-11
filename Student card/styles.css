@@ -1,0 +1,42 @@
+body{
+    background-color:lightgray;
+    border:1px solid black;
+}
+
+img{
+    border-top-right-radius: 50px;
+    /* border-bottom: 10px solid red; */
+    width:500px;
+    height:auto;
+}
+
+.all{
+    width:500px;
+    margin:auto;
+}
+
+.top{
+    /* display:inline-block; */
+    background-image:url("./headshot.jpg");
+    background-position: center center;
+    background-size:cover;
+    border-top-right-radius: 50px;
+    border-bottom: 8px solid crimson;
+    width:auto;
+    height:300px;
+}
+
+#tag{
+    background-color: crimson;
+    width:100px;
+    height: auto;
+    text-align: center;
+    color:white;
+    /* position:absolute; top:0px; */
+}
+
+.bottom{
+    padding:40px;
+    background-color: white;
+    border-bottom-left-radius: 50px;
+}
